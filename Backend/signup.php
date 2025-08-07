@@ -1,9 +1,9 @@
 <?php
 session_start();
-$host = "localhost";
-$db = "donations";
-$user = "root";
-$pass = "";
+$host = "sql313.infinityfree.com";
+$db = "if0_39653368_donations";
+$user = "if0_39653368";
+$pass = "2410vXaZxVF";
 
 $conn = new mysqli($host, $user, $pass, $db);
 if ($conn->connect_error) {
